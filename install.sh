@@ -31,3 +31,9 @@ sudo apt-get install docker-engine
 
 # Start Docker
 sudo service docker start
+
+# Add Docker Group
+sudo groupadd docker
+
+# Add user to Docker group
+sudo usermod -aG docker $USER
