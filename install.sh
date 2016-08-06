@@ -37,3 +37,6 @@ sudo groupadd docker
 
 # Add user to Docker group
 sudo usermod -aG docker $USER
+
+# Run Docker hello-world
+docker run hello-world
